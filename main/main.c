@@ -110,7 +110,7 @@ X+ X- Y+ Y- SEULEMENT X+ ET X- MARCHENT
 	while(1) {
 		traceHeap();
 
-#if  0 //CONFIG_ENABLE_TOUCH
+#if  0 //CONFIG_ENABLE_TOUCH //seulement une partie marche, a ignorer
 
 		TouchCalibration(&dev, fx24G, CONFIG_WIDTH, CONFIG_HEIGHT);
 		TouchPenTest(&dev, fx24G, CONFIG_WIDTH, CONFIG_HEIGHT, 1000);
