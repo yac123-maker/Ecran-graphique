@@ -122,7 +122,7 @@ X+ X- Y+ Y- SEULEMENT X+ ET X- MARCHENT
 	TouchIconTest(&dev, fx24G, CONFIG_WIDTH, CONFIG_HEIGHT, 1000);
 #endif
 #endif
-
+//**********************************************************************************Fonction principale du code commence a partir d'ici *********************************************************
 		WAIT;
 		char file[32];
 		strcpy(file, "/images/jugo.png"); //IMPORTER UNE IMAGE VERS LA MEMOIRE FLASH
